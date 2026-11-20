@@ -1,56 +1,33 @@
 # PDFilter
 
-PDFilter is a client-side web application that allows you to easily apply visual filters to your PDF documents. Upload a PDF, adjust colors, apply presets, and export the modified PDF entirely in your browser without any server processing!
+> [I](https://github.com/SunTzv) was facing light mode hatred syndrome.
+> style yrou pdfs now
 
-## Features
+Apply visual filters to any PDF, right in your browser. Invert it for dark mode, adjust colors, tweak the look, and export the result. Nothing is uploaded anywhere.
 
-- **Client-Side Processing**: No documents are sent to a server. All processing is done locally in your browser.
-- **Visual Filters**: Adjust brightness, contrast, saturation, hue, blur, and opacity.
-- **Presets**: Apply quick presets like Invert, Grayscale, Sepia, Warm, and Cool.
-- **Real-Time Preview**: Instantly see how your filters affect the document before exporting.
-- **High-Quality Export**: Export the filtered PDF document while preserving aspect ratios and applying your visual changes.
+**[Open PDFilter](https://suntzv.github.io/pdfilter/)**
 
-## Getting Started
+## What it does
 
-### Prerequisites
+- **Presets:** one-click Invert (dark mode for PDFs), Grayscale, Sepia, Warm and Cool.
+- **Light:** brightness, contrast, exposure and opacity.
+- **Color:** saturation, hue, temperature and tint.
+- **Tone:** highlights, shadows, whites and blacks.
+- **Detail:** sharpness and blur.
+- **Live preview:** see every change on the page before you export.
+- **Export:** save the filtered document as a new PDF, with page proportions preserved.
 
-You need Node.js and npm installed on your machine.
+## Private by design
 
-### Installation
+Everything runs locally in your browser. Your PDF is never sent to any server, stored, or shared.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/SunTzv/pdfilter.git
-   cd pdfilter
-   ```
+## How to use it
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-### Development
-
-To start the development server:
-```bash
-npm run dev
-```
-
-### Build for Production
-
-To build the application for production:
-```bash
-npm run build
-```
-
-## Technologies Used
-
-- **React**: UI Framework
-- **Vite**: Build Tool & Dev Server
-- **pdfjs-dist**: PDF rendering
-- **jspdf**: PDF generation and export
-- **lucide-react**: Icons
+1. Open [PDFilter](https://suntzv.github.io/pdfilter/).
+2. Upload a PDF.
+3. Adjust the filters or pick a preset.
+4. Export the new PDF.
 
 ## License
 
-This project is licensed under the MIT License.
+MIT. See the license file for details.
