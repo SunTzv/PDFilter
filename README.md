@@ -1,11 +1,12 @@
 # PDFilter
 
 > [I](https://github.com/SunTzv) was facing light mode hatred syndrome.
-> style yrou pdfs now
+> style you pdfs now
 
 Apply visual filters to any PDF, right in your browser. Invert it for dark mode, adjust colors, tweak the look, and export the result. Nothing is uploaded anywhere.
 
 **[Open PDFilter](https://suntzv.github.io/pdfilter/)**
+[(also on surge)](https://pdfilter.surge.sh/)
 
 ## What it does
 
