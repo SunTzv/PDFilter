@@ -5,8 +5,7 @@
 
 Apply visual filters to any PDF, right in your browser. Invert it for dark mode, adjust colors, tweak the look, and export the result. Nothing is uploaded anywhere.
 
-**[Open PDFilter](https://suntzv.github.io/pdfilter/)**
-[(also on surge)](https://pdfilter.surge.sh/)
+**[Open PDFilter](https://pdfilter.surge.sh/)**
 
 ## What it does
 
@@ -24,11 +23,11 @@ Everything runs locally in your browser. Your PDF is never sent to any server, s
 
 ## How to use it
 
-1. Open [PDFilter](https://suntzv.github.io/pdfilter/).
+1. Open [PDFilter](https://pdfilter.surge.sh/).
 2. Upload a PDF.
 3. Adjust the filters or pick a preset.
 4. Export the new PDF.
 
 ## License
 
-MIT. See the license file for details.
+MIT. See the [license](https://github.com/SunTzv/PDFilter/blob/main/LICENSE) file for details.
